@@ -66,7 +66,15 @@ input {
   color: rgba(45, 45, 45, 0.8);
 }
 
+input:invalid {
+  border-color: rgba(45, 45, 45, 0.8);
+  transition: 0.2s;
+}
 
+input:valid {
+  border-color: #50c878;
+  transition: 0.2s;
+}
 
 button {
   margin-top: 20px;
@@ -85,6 +93,7 @@ button:hover {
 }
 
 img {
+  transition: 0.2s;
   margin-top: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
