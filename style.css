@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+form h1 {
+  margin-top: 10px;
+  color: rgba(45, 45, 45, 0.8);
+  text-align: left;
+}
+
+
+
+html {
+  background: url(images/mountain.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(240,248,255, 0.5);
+  text-align: left;
+  font-size: 25px;
+  width: 100;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(240,248,255, 0.5);
+}
+
+input {
+  display: block;
+  width: 350px;
+  height: 35px;
+  margin-top: 25px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-bottom: 1px solid white;
+  background-color: rgba(0, 0 ,0 ,0);
+  color: rgba(45, 45, 45, 0.8);
+}
+
+
+
+button {
+  margin-top: 20px;
+  width: 350px;
+  height: 40px;
+  background-color: rgba(240,248,255, 0.5);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  color:rgba(240,248,255, 0.6);
+  background-color: rgba(45, 45, 45, 0.8);
+  transition: 0.3s;
+}
+
+img {
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
+  height: 503px;
+  width: 390;
+  
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
